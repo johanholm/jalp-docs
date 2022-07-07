@@ -13,7 +13,10 @@ export default {
       },
       {
         text: "Helpers",
-        items: [{ text: "Fluid", link: "/api/fluid" }],
+        items: [
+          { text: "Fluid", link: "/api/fluid" },
+          { text: "Devices", link: "/api/devices" },
+        ],
       },
     ],
   },

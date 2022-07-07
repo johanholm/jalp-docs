@@ -13,6 +13,13 @@ h1 {
 
   // Alternatively a map of attributes can be sent in like so
   @include jalp.fluid((width, height), 14px, 12px, 16px, 18px);
+
+  // The jalp mixin accepts a minimum of 1 unit value, and will use that value for each of the next breakpoints
+
+  // Example
+  @include jalp.fluid(font-size, 14px);
+  // Is same as
+  @include jalp.fluid(font-size, 14px, 14px, 14px, 14px);
 }
 ```
 
