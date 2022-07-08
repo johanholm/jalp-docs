@@ -1,3 +1,3 @@
 # Getting started
 
-`yarn add yalp`
+`yarn add jalp`
